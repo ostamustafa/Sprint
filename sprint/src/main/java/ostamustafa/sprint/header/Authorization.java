@@ -25,7 +25,8 @@
 package ostamustafa.sprint.header;
 
 public enum Authorization implements Header {
-    BEARER("Bearer ");
+    BEARER("Bearer "),
+    CUSTOM("");
 
     private String value;
 
