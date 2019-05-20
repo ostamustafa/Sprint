@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/ostamustafa/Sprint.svg)](https://jitpack.io/#ostamustafa/Sprint)
+
 # Sprint
 Sprint is a RESTful android java library
 
