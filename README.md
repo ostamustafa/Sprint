@@ -3,7 +3,28 @@
 # Sprint
 Sprint is a RESTful android java library
 
-## basic usage:
+## Gradle:
+
+### In project level gradle:
+
+```gradle
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+### In app level gradle:
+
+```gradle
+dependencies {
+    implementation 'com.github.ostamustafa:sprint:1.0.2'
+}
+```
+
+## Usage:
 
 ### GET Example:
 
