@@ -26,6 +26,7 @@ package ostamustafa.sprint;
 
 import android.util.SparseArray;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -35,7 +36,8 @@ public class ResponseBuilder {
     private Map<String, List<String>> headers;
 
     protected ResponseBuilder() {
-
+        result = new SparseArray<>();
+        headers = new HashMap<>();
     }
 
     public SparseArray<String> getResult() {
