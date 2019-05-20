@@ -51,8 +51,13 @@ public class Response {
         return response;
     }
 
-    public JSONObject jsonBody() throws JSONException {
-        return new JSONObject(response);
+    public JSONObject jsonBody() {
+        try {
+            return new JSONObject(response);
+        } catch (JSONException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
     protected void setStatusCode(int statusCode) {
