@@ -20,7 +20,7 @@ allprojects {
 
 ```gradle
 dependencies {
-    implementation 'com.github.ostamustafa:sprint:1.0.2'
+    implementation 'com.github.ostamustafa:sprint:1.0.3'
 }
 ```
 
